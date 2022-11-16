@@ -26,3 +26,6 @@ I focused on just making the backbone of what Part 2 asks for:
 - Figure out how a user would interact with the site, where they'd input information for bmi/protein calculators or how they could save and view information.
 - Lastly, we have to define Django forms used in the project. I don't think we've gone over this yet but I think that's Wednesday's class.
 
+
+
+*Note: .gitignore is ignoring static folders so they don't mess things up. If you need one you'll have to add it and manage it on your own local repo.*
