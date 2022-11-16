@@ -1,6 +1,6 @@
 # AnotherFinalProject
 
-I decided to make a fresh wipe of what the project was before I turned it to scrambled eggs, then carefully added templates, models, and database settings. I think the thing that was making things difficult was trying to make a bootstrap template work with django (which is possible, just time consuming and frustrating).
+I decided to make a fresh wipe of what the project was before I turned it to scrambled eggs, then carefully added templates, models, and database settings. I think what was making things difficult was trying to make a bootstrap template work with django (which is possible, just time consuming and frustrating).
 
 I focused on just making what Part 2 asks for:
 
