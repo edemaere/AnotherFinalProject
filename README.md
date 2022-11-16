@@ -16,7 +16,7 @@ I focused on just making the backbone of what Part 2 asks for:
 2. Make sure django and psycopg2 are installed (run "pip install django" and "pip install psycopg2" if they aren't).
 3. The project is currently built to connect to a database called "fitness" (you can find this setting in "admin/settings.py" on the DATABASES section). If you already have pgAdmin set up, start a SQL Shell (psql) and enter the password you used for pgAdmin. Once you're in, run "create database fitness;". This will make the database for the project.
 4. Run "python manage.py migrate". It will ask you for a password - this is for the database, same password used for pgAdmin (the password prompt was setup using the getpass() function in the DATABASES settings). After entering your password, the database schema will be mapped to the database (setup for the schema is in "GainPages/models.py").
-5. Run "python manage.py createsuperuser" to make an admin account for managing the database.
+5. Run "python manage.py createsuperuser" to make an admin account for managing the database (access management on the site by adding "/admin" to the url).
 6. Finally, you can run "python manage.py runserver". It will prompt twice for the database password before starting.
 
 ### What's Next:
